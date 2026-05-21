@@ -35,7 +35,7 @@ The mathematical simulation engine completely bypasses native solvers to execute
 ---
 
 ## Repository Structure & Core Manifest
-* `Project_3_Jones.m`: Principal execution script managing data preallocation loops, plotting routines, and global orchestration.
+* `Main_Lunar_Simulation.m`: Principal execution script managing data preallocation loops, plotting routines, and global orchestration.
 * `calculateSystemResponse.m`: Core embedded $O(h^4)$ Runge-Kutta integration pipeline.
 * `calculateConvergedSystemResponse.m`: Self-correcting iterative time-step refinement loop.
 * `w_d_Optimization.m`: Golden Section Search optimization maximizer.
